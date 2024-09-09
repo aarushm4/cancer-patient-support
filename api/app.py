@@ -39,7 +39,7 @@ def convert_int64_to_int(data):
 MOCK_PATIENT_DATA = pd.DataFrame({
     'patient_id': range(1000),
     'age': np.random.randint(20, 80, 1000),
-    'cancer_type': np.random.choice(['breast cancer', 'lung', 'colon', 'prostate', 'melanoma'], 1000),
+    'cancer_type': np.random.choice(['breast cancer'], 1000),
     'stage': np.random.choice(['I', 'II', 'III', 'IV'], 1000),
     'treatment': np.random.choice(['chemotherapy', 'radiation', 'surgery', 'immunotherapy'], 1000),
     'outcome': np.random.choice(['improved', 'stable', 'deteriorated'], 1000),
