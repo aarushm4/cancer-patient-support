@@ -12,10 +12,8 @@ This application provides a comprehensive platform for exploring clinical trials
 ## Tech Stack
 - **Frontend:** React
 - **Backend:** Flask
-- **Machine Learning:** Scikit-learn, TensorFlow/Keras (as applicable)
-- **Database:** (Optional) MongoDB or PostgreSQL
-- **Deployment:** AWS, Heroku, or similar cloud services
-- 
+- **Machine Learning:** Scikit-learn
+  
 ## Installation
 
 Before running GenomeScope, you will need to set up your environment. Here's how you can get started:
